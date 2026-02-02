@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    }
+
+    /* ==================  BASE STRUCTURE <(ESTABLE) ================== */
+
+#main_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    height: 100%;
+    margin: -120px auto -150px auto;
+    padding: 0;
+    gap: 40px;
+}
+
+#left_photo {
+    display: flex;
+    align-items: center;
+    flex: 1;    
+    width: 200px;
+    height: 600px;
+}
+
+#bacteria_field {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    background: radial-gradient(circle at center, #111 0%, #000 70%);
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: -10px;
+}
+
+/* bacteria base */
+
+.bacteria {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0.85;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+/* Moods */
+
+.bacteria.healthy {
+    background-color: #3dff7a;
+    box-shadow: 0 0 8px #3dff7a;
+}
+
+.bacteria.stressed {
+    background-color: #ffc857;
+    box-shadow: 0 0 6px #ffc857;
+}
+
+.bacteria.critical {
+    background-color: #ff4d4d;
+    box-shadow: 0 0 6px #ff4d4d;
+}
+
+.science_photos {
+    width: 100%;
+    max-width: 520px;    
+    height: auto;
+}
+
+#center {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.screen_one {
+    height: 55px;
+        margin-bottom: 8px;
+        padding-top: 15px;
+    }
+
+.screen_two {
+    min-height: 200px;
+    padding: 15px 15px 0px 15px;
+}
+
+#flexible_buttons1, #flexible_buttons2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#theme_container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#controls {
+    text-decoration: underline orange;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: silver;
+    text-align: center;
+    padding: 10px 0px; 
+}
+
+button {   
+    cursor: pointer;
+    }
+
+/* ==================  1st model — ORIGINAL ================== */
+
+.theme-original {
+    background-color: white;
+}
+
+.theme-original .experiment_title {    
+    color: yellowgreen;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px;
+    }
+
+.theme-original .screen_one {
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 0px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.theme-original .screen_two {
+    background-color: black;
+    border: solid gray 2px;
+    border-radius: 4px;
+}
+
+.theme-original #first_variable, .theme-original #second_variable, .theme-original #third_variable, .theme-original #fourth_variable,
+.theme-original #fifth_variable {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.theme-original .general_condition {
+    color: sienna;
+    font-weight: bold;
+}
+.theme-original .message_alert {
+    color: tomato;
+    font-weight: bold;
+}
+
+.theme-original button {
+    border: double 8px seagreen;
+    background-color: bisque;
+}
+
+/* ================== 2nd Model / FUTURISTIC ================== */
+
+.theme-lab {
+    background-color: #0f1117;
+    color: #e6e6e6;
+    font-family: system-ui, sans-serif;
+}
+
+.theme-lab .experiment_title {
+    color: #4fc3f7;
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+}
+
+.theme-lab #center {
+    background-color: #161a22;
+    padding: 1px;
+    border-radius: 12px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.5);
+}
+
+.theme-lab .screen_one {
+    color: #9aa4b2;    
+    text-align: center;
+    padding-right: 2px;
+}
+
+.theme-lab .screen_two {
+    background-color: #1e2330;
+    border-radius: 12px;
+    }
+
+.theme-lab .general_condition {
+    color: #6bff95;
+    padding-left: 5px;
+ }
+
+.theme-lab .message_alert {
+    color: #ff6b6b;
+    padding-left: 5px;
+}
+
+.theme-lab button {
+    background-color: transparent;
+    border: 1px solid #2a2f3a;
+    color: #e6e6e6;
+    border-radius: 12px;
+}
+
+.theme-lab button:hover {
+    background-color: #1e2330;
+    transform: translateY(-2px);
+}
+
+/* ==================  3rd Model — COQUETTE ================== */
+
+.theme-coquette {
+    background-color: #fff7fb;
+    color: #4a2c3b;
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+.theme-coquette .experiment_title {
+    text-align: center;
+    font-size: 2.1rem;
+    color: #c45a8d;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #ffe0ee;
+    margin-bottom: 10px;
+}
+
+.theme-coquette #center {
+    background-color: #fffafd;
+    border: 2px solid #f2b7d4;
+    border-radius: 18px;
+    padding: 1px;
+    box-shadow: 0 8px 25px rgba(196, 90, 141, 0.25);
+}
+
+.theme-coquette .screen_one {
+    background-color: #ffe6f2;
+    color: #a63b6f;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.theme-coquette .screen_two {
+    background-color: #ffffff;
+    border: 2px dashed #f2b7d4;
+    border-radius: 14px;
+}
+
+.theme-coquette #first_variable, .theme-coquette #second_variable, .theme-coquette #third_variable, .theme-coquette #fourth_variable,
+.theme-coquette #fifth_variable {
+    color: #7a2d4f;
+    }
+
+.theme-coquette .general_condition {
+    color: #d14c8b;
+    font-weight: bold;
+    padding-left: 5px;
+    }
+
+.theme-coquette .message_alert {
+    color: #b03060;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.theme-coquette button {
+    background-color: #ffe6f2;
+    border: 2px solid #f2b7d4;
+    border-radius: 999px;
+    color: #7a2d4f;
+    font-size: 0.85rem;
+}
+
+.theme-coquette button:hover {
+    background-color: #ffd3e8;
+}
