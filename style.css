@@ -286,3 +286,113 @@ button {
 .theme-coquette button:hover {
     background-color: #ffd3e8;
 }
+
+@media (min-width: 1400px) {
+    #main_flex {
+        max-width: 1400px;
+        gap: 60px;
+    }
+
+    #center {
+        width: 460px;
+    }
+
+    #bacteria_field {
+        max-width: 450px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1024px) {
+    #main_flex {
+        margin: -80px auto -120px auto;
+    }
+}
+
+@media (max-width: 1023px) {
+    #main_flex {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin: 20px auto;
+        gap: 25px;
+    }
+
+    #left_photo {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .science_photos {
+        max-width: 420px;
+    }
+
+    #center {
+        width: 90%;
+        max-width: 480px;
+    }
+
+    #bacteria_field {
+        max-width: 90%;
+        height: 240px;
+    }
+}
+@media (max-width: 767px) {
+    .experiment_title {
+        font-size: 1.8rem;
+    }
+
+    .science_photos {
+        max-width: 340px;
+    }
+
+    #center {
+        width: 95%;
+    }
+
+    #flexible_buttons1,
+    #flexible_buttons2 {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    button {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 14px;
+    }
+
+    .experiment_title {
+        font-size: 1.6rem;
+    }
+
+    .screen_one {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .screen_two {
+        min-height: auto;
+        padding: 10px;
+    }
+
+    #bacteria_field {
+        height: 200px;
+    }
+
+    button {
+        font-size: 0.75rem;
+        padding: 5px 8px;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        padding: 8px;
+    }
+}
