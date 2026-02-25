@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Experimento / Sistema Vivo</title>
+</head>
+<body>
+
+    <h1 id="experiment_title" class="experiment_title">Organic Farming</h1>
+
+        <main id="main_flex">
+
+            <div id="left_photo">
+                <img class="science_photos" src="https://www.cosasdeeducacion.es/wp-content/uploads/sites/6/2009/07/que-es-ciencia.jpg">
+            </div>
+
+            <div id="center">
+                <h2 id="screen_one" class="screen_one">Escherichia coli K-12</h2>
+
+                <article id="screen_two" class="screen_two">
+                    <p id="first_variable" class="variable">1st variable: <span class="response1"></span></p>
+                    <p id="second_variable" class="variable">2nd variable: <span class="response1"></span></p>
+                    <p id="third_variable" class="variable">3rd variable: <span class="response1"></span></p>
+                    <p id="fourth_variable" class="variable">4th variable: <span class="response1"></span></p>
+                    <p id="fifth_variable" class="variable">5th variable: <span class="response1"></span></p>
+                </article>
+
+                <h3 id="general_condition" class="general_condition">
+                    General condition: <span class="response2"></span>
+                </h3>
+
+                <h3 id="message_alert" class="message_alert">
+                    Alerts / Messages: <span class="response3"></span>
+                </h3>
+            </div>
+
+            <div id="bacteria_field"></div>
+
+        </main>
+
+        <h2 id="controls" class="controls">Controls:</h2>
+
+        <section id="flexible_buttons1">
+            <button id="power_button">Power</button>
+            <button id="pause_button">Pause</button>
+            <button id="off_button">Off</button>
+        </section>
+
+        <section id="flexible_buttons2">
+            <button id="more_temperature">+ Temp</button>
+            <button id="less_temperature">- Temp</button>
+            <button id="more_humidity">+ Humid</button>
+            <button id="less_humidity">- Humid</button>
+            <button id="more_food">+ Food</button>
+            <button id="less_food">- Food</button>
+        </section>
+
+        <div id = "theme_container">
+            <button id = "theme_button">Change Theme</button>
+        </div>
+
+        <footer>
+            All reserved rights by Fabrizio with the "z", only for educational purposes.
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
