@@ -358,14 +358,20 @@ button {
 /* Celulares */
 @media (max-width: 600px) {
 
-    #center {
-    width: 100%;
-    max-width: 420px;
-    }
-
     #main_flex {
         gap: 10px;
         margin: 5px auto;
+    }
+
+    #center {
+        width: 92%;
+        max-width: 92%;
+        margin: 0 auto;
+    }
+
+    .screen_two {
+        width: 100%;
+        margin: 0;
     }
 
     #bacteria_field {
@@ -373,21 +379,4 @@ button {
         width: 100%;
     }
 
-    .science_photos {
-        max-width: 100%;
-    }
-
-    #flexible_buttons1,
-    #flexible_buttons2 {
-        margin-right: 0;
-    }
-
-    #theme_button {
-        margin-right: 0;
-    }
-
-    .screen_two {
-        margin: 0px 10px 0px 10px;
-        width: 100%;
-    }
 }
