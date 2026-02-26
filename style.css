@@ -355,10 +355,14 @@ button {
 
     #bacteria_field {
         height: 180px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .science_photos {
         max-width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     #flexible_buttons1,
