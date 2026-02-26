@@ -343,11 +343,21 @@ button {
         margin-right: 0;
     }
 
+    #center {
+    width: 100%;
+    max-width: 420px;
+    }
+
 }
 
 /* Celulares */
 @media (max-width: 600px) {
 
+    #center {
+    width: 100%;
+    max-width: 420px;
+    }
+    
     #main_flex {
         gap: 10px;
         margin: 5px auto;
@@ -355,14 +365,11 @@ button {
 
     #bacteria_field {
         height: 180px;
-        margin-right: 10px;
-        margin-left: 10px;
+        width: 100%;
     }
 
     .science_photos {
         max-width: 100%;
-        margin-right: 10px;
-        margin-left: 10px;
     }
 
     #flexible_buttons1,
