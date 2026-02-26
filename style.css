@@ -348,6 +348,11 @@ button {
     max-width: 420px;
     }
 
+
+    .screen_two {
+        margin: 0px 10px 0px 10px;
+        width: 100%;
+    }
 }
 
 /* Celulares */
@@ -357,7 +362,7 @@ button {
     width: 100%;
     max-width: 420px;
     }
-    
+
     #main_flex {
         gap: 10px;
         margin: 5px auto;
@@ -381,4 +386,8 @@ button {
         margin-right: 0;
     }
 
+    .screen_two {
+        margin: 0px 10px 0px 10px;
+        width: 100%;
+    }
 }
