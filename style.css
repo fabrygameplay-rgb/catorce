@@ -336,6 +336,7 @@ button {
 
     .science_photos {
         max-width: 400px;
+        display: block;
     }
 
     #center {
@@ -364,6 +365,10 @@ button {
 /* Celulares */
 @media (max-width: 600px) {
 
+    h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
     #main_flex {
         flex-direction: column;
         align-items: center;
