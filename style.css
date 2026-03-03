@@ -357,7 +357,7 @@ button {
     }
 
     #main_flex {
-        min-height: calc(100vh - 160px);
+        min-height: auto;
     }
 
 }
