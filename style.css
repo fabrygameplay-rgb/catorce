@@ -214,6 +214,7 @@ button {
 .theme-lab .screen_two {
     background-color: #1e2330;
     border-radius: 12px;
+    padding-bottom: 10px;
     }
 
 .theme-lab .general_condition {
@@ -319,40 +320,41 @@ button {
 }
 
 /* Tablets */
-@media (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
 
     #main_flex {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
     }
 
     #left_photo {
+        width: 80%;
+        margin: 0 auto;
         justify-content: center;
-        margin-left: 0;
     }
 
-    #bacteria_field {
-        margin-right: 0;
-    }
-
-    h1 {
-        margin: 20px 0;
-    }
-
-    #controls {
-        margin-right: 0;
+    .science_photos {
+        max-width: 400px;
     }
 
     #center {
-    width: 100%;
-    max-width: 420px;
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
     }
 
-
-    .screen_two {
-        margin: 0px 10px 0px 10px;
-        width: 100%;
+    #bacteria_field {
+        max-width: 500px;
+        height: 200px;
+        margin: 0 auto;
     }
+
+    h1 {
+        margin-right: 0;
+        text-align: center;
+    }
+
 }
 
 /* Celulares */
