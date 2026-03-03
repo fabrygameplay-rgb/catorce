@@ -358,6 +358,8 @@ button {
 
     #main_flex {
         min-height: auto;
+        justify-content: flex-start;
+        gap: 5px;
     }
 
 }
