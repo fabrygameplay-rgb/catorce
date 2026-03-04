@@ -1,4 +1,4 @@
-# 🧫 Bacteria Lab Simulation
+# Bacteria Lab Simulation
 
 Interactive visual experiment that simulates bacterial behavior under different environmental conditions.
 
@@ -7,7 +7,7 @@ Includes dynamic UI themes and real-time visual state changes.
 
 ---
 
-## 🧪 Project Overview
+## Project Overview
 
 This project represents a fictional laboratory environment where bacteria react visually to changing variables.
 
@@ -21,7 +21,7 @@ The interface includes dynamic screens, variable indicators, and theme switching
 
 ---
 
-## 🚀 Features
+## Features
 
 - Animated bacteria field
 - Dynamic state changes (healthy / stressed / critical)
@@ -34,15 +34,15 @@ The interface includes dynamic screens, variable indicators, and theme switching
 
 ---
 
-## 🎨 Themes Included
+## Themes Included
 
-### 1️⃣ Original
+### Original
 Classic academic laboratory style.
 
-### 2️⃣ Futuristic (Lab Mode)
+### Futuristic (Lab Mode)
 Dark scientific interface inspired by modern control panels.
 
-### 3️⃣ Coquette
+### Coquette
 Soft pastel scientific aesthetic with decorative styling.
 
 Themes dynamically modify:
@@ -55,7 +55,7 @@ Themes dynamically modify:
 
 ---
 
-## 🖥️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Media Queries, Gradients)
@@ -67,7 +67,7 @@ No external libraries or frameworks were used.
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Breakpoints implemented:
 
@@ -82,7 +82,7 @@ The layout adapts between:
 
 ---
 
-## 🧬 Bacteria System
+## Bacteria System
 
 Each bacterium is rendered as a positioned element inside a simulated Petri dish field.
 
@@ -96,7 +96,7 @@ Transitions are handled smoothly using CSS and JavaScript class toggling.
 
 ---
 
-## 🧠 What This Project Demonstrates
+## What This Project Demonstrates
 
 - Advanced layout control with Flexbox
 - State-based UI logic
@@ -107,6 +107,6 @@ Transitions are handled smoothly using CSS and JavaScript class toggling.
 
 ---
 
-## 🧑‍🔬 Author
+## Author
 
 Fabrizio with the "z"
